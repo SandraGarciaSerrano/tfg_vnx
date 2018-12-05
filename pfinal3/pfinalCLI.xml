@@ -70,7 +70,7 @@ SPAIN
   <vm name="dns" type="lxc" arch="x86_64">
     <filesystem type="cow">filesystems/rootfs_lxc64-cdps</filesystem>
     <if id="1" net="LAN3">
-      <ipv4>10.0.3.2/24</ipv4>
+      <ipv4>10.0.3.13/24</ipv4>
     </if>
     <if id="9" net="virbr0">
       <ipv4>dhcp</ipv4>
